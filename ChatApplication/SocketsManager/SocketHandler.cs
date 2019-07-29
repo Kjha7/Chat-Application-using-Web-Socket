@@ -13,6 +13,7 @@ namespace ChatApplication.SocketsManager
         {
             Connection = connection;
         }
+        protected SocketHandler() { }
 
         public virtual async Task OnConnected(WebSocket socket)
         {
