@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * class that keeps all active sockets in a thread-safe collection
+ * and assigns each a unique ID, while also maintaining the collection (getting, adding and removing sockets).
+ */
+
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +34,7 @@ namespace ChatApplication.SocketsManager
 
         public async Task RemoveSocketAsync(string id)
         {
-            connections.TryRemove(id, out var socket);
+            connections.TryRemove(id, out socket);
             await socket.CloseAsync(WebSocketCloseStatus.NormalClosure, "socket closed", CancellationToken.None);
         }
 

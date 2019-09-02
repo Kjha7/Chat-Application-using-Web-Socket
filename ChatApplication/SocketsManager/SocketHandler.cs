@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * class that handles connection and disconnection events and
+ * manages sending and receiving messages from the socket. 
+ */
+
+using System;
 using System.Net.WebSockets;
 using System.Text;
 using System.Threading;
@@ -6,6 +11,10 @@ using System.Threading.Tasks;
 
 namespace ChatApplication.SocketsManager
 {
+    /*
+     *  you need to inherit it and provide actual implementation for the ReceiveAsync method,
+     *  as well as you can override the methods marked as virtual.
+     */
     public abstract class SocketHandler
     {
         public ConnectionManager Connection { get; set; }
