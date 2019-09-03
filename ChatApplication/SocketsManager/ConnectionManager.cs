@@ -34,7 +34,7 @@ namespace ChatApplication.SocketsManager
 
         public async Task RemoveSocketAsync(string id)
         {
-            connections.TryRemove(id, out socket);
+            connections.TryRemove(id, out var socket);
             await socket.CloseAsync(WebSocketCloseStatus.NormalClosure, "socket closed", CancellationToken.None);
         }
 

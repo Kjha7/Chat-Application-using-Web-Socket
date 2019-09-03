@@ -1,9 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApplication", "ChatApplication\ChatApplication.csproj", "{C2ADB52B-AA75-4C54-BB5A-D7DE0DF2FA8F}"
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApplication", "ChatApplication\ChatApplication.csproj", "{C2ADB52B-AA75-4C54-BB5A-D7DE0DF2FA8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketsConsole", "WebSocketsConsole\WebSocketsConsole.csproj", "{BF12FAF0-FBE1-4DC4-9224-5A1DD631DB4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication4", "WebApplication4\WebApplication4.csproj", "{35847C38-7A9C-40C7-A34E-D413405C877E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +16,15 @@ Global
 		{C2ADB52B-AA75-4C54-BB5A-D7DE0DF2FA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2ADB52B-AA75-4C54-BB5A-D7DE0DF2FA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2ADB52B-AA75-4C54-BB5A-D7DE0DF2FA8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF12FAF0-FBE1-4DC4-9224-5A1DD631DB4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF12FAF0-FBE1-4DC4-9224-5A1DD631DB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF12FAF0-FBE1-4DC4-9224-5A1DD631DB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF12FAF0-FBE1-4DC4-9224-5A1DD631DB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35847C38-7A9C-40C7-A34E-D413405C877E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35847C38-7A9C-40C7-A34E-D413405C877E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35847C38-7A9C-40C7-A34E-D413405C877E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35847C38-7A9C-40C7-A34E-D413405C877E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDECD2F3-51D1-4F3C-8912-2B81297209ED}
 	EndGlobalSection
 EndGlobal
